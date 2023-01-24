@@ -1,0 +1,21 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "MR_Package",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
+    }
+  ],
+  "name": "Custom Object Managed Package",
+  "namespace": "Vi_test_Dev",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "56.0",
+  "packageAliases": {
+    "MR_Package": "0Ho5g000000bm1VCAQ",
+    "MR_Package@0.1.0-1": "04t5g000000m6MZAAY",
+    "MR_Package@0.1.0-2": "04t5g000000m6MtAAI"
+  }
+}
