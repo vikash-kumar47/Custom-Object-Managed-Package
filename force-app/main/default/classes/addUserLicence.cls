@@ -19,7 +19,7 @@ global class addUserLicence {
             system.debug('*****Exception*****'+ e); 
         }
     }
-    
+    // remove the user licence
     global void remove(){
         list<UserPackageLicense> uPL = [select id,PackageLicenseid,Userid from UserPackageLicense where PackageLicenseid='0505i000000btpXAAQ' AND userId =:uPL.UserId  limit 1];
         try{
